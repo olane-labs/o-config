@@ -31,9 +31,13 @@
     "prepublishOnly": "npm run build",
     "lint": "eslint ./src/**/*.ts"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olane-labs/o-config.git"
+  },
+  "author": "oLane Inc.",
   "license": "ISC",
-  "description": "",
+  "description": "oLane Network Config",
   "devDependencies": {
     "@babel/core": "^7.27.4",
     "@babel/preset-env": "^7.27.2",
