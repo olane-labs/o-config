@@ -17,6 +17,7 @@ export * from 'datastore-fs';
 export * from '@libp2p/peer-id-factory';
 export * from '@libp2p/bootstrap';
 export * from '@libp2p/circuit-relay-v2';
+export * from '@libp2p/memory';
 export {
   Metrics,
   OutboundConnectionUpgradeEvents,
