@@ -1,5 +1,5 @@
 {
-  "name": "@olane-labs/o-config",
+  "name": "@olane/o-config",
   "version": "1.0.0",
   "type": "commonjs",
   "main": "dist/index.js",
