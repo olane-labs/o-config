@@ -2,6 +2,7 @@ const path = require('path');
 const webpack = require('webpack');
 const packageJson = require('./package.json');
 
+// Configuration factory to build for different targets
 const createConfig = (target, entry, filename, format) => ({
   entry,
   target,
@@ -39,6 +40,8 @@ const createConfig = (target, entry, filename, format) => ({
   },
 });
 
+// Export array of configurations for both ESM and CommonJS
 module.exports = [
+  // ESM build
   createConfig('node', './src/index.ts', 'index.js', 'commonjs2'),
 ];

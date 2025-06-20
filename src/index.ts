@@ -31,5 +31,8 @@ export {
   transportSymbol,
   serviceCapabilities,
   IncomingStreamData,
+  Stream,
 } from '@libp2p/interface';
 export { Multiaddr, multiaddr, protocols } from '@multiformats/multiaddr';
+import all from 'it-all';
+export { all };
