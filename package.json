@@ -89,6 +89,7 @@
     "@libp2p/tcp": "^10.1.16",
     "@multiformats/multiaddr": "^12.5.0",
     "datastore-fs": "^10.0.4",
+    "it-all": "^3.0.9",
     "it-pushable": "^3.2.3",
     "libp2p": "^2.8.11",
     "uint8arraylist": "^2.4.8"
